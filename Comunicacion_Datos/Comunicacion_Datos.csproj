@@ -202,11 +202,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\animate.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\card.css" />
     <Content Include="Content\estilo.css" />
     <Content Include="Content\img\2000px-Ubiquiti_Networks.svg.png" />
-    <Content Include="Content\img\foto0.jpg" />
+    <Content Include="Content\img\foto_0.jpg" />
     <Content Include="Content\img\foto1.png" />
     <Content Include="Content\img\foto10.png" />
     <Content Include="Content\img\foto11.png" />
@@ -219,16 +222,37 @@
     <Content Include="Content\img\foto7.jpg" />
     <Content Include="Content\img\foto8.jpg" />
     <Content Include="Content\img\foto9.png" />
+    <Content Include="Content\img\nanostation_2_loco.jpg" />
+    <Content Include="Content\navbar.css" />
+    <Content Include="Content\placefolder\280.jpg" />
+    <Content Include="Content\placefolder\280._2jpg.jpg" />
+    <Content Include="Content\placefolder\abstract-q-c-850-280-9.jpg" />
+    <Content Include="Content\placefolder\alomia.png" />
+    <Content Include="Content\placefolder\city-q-c-850-280-9.jpg" />
+    <Content Include="Content\placefolder\city-q-g-850-280-2.jpg" />
+    <Content Include="Content\placefolder\jhonattan.png" />
+    <Content Include="Content\placefolder\laurent.png" />
+    <Content Include="Content\placefolder\mateo.png" />
+    <Content Include="Content\placefolder\pachon.JPG" />
+    <Content Include="Content\placefolder\xx.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -276,15 +300,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
