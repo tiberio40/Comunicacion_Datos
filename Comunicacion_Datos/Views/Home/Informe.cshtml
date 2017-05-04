@@ -1,0 +1,116 @@
+﻿
+@{
+    ViewBag.Title = "Informe";
+}
+<br>
+<br>
+<br>
+<section>
+    <div class="col-md-2">
+    </div>
+    <div class="col-md-4 letragrande animated zoomInDown retraso">
+        <h2 class="text-azulito subtitulo animated zoomInDown retraso">CONTENIDO:</h2>
+        <p>El NanoStation 2 Loco contiene:</p>
+        <p>- 1 Router o AP NanoStation 2 Loco.</p>
+        <p>- 1 Adaptador PoE.</p>
+        <p>- 1 Cable de poder.</p>
+        <p>- Cables de Red (Opcional).</p>
+    </div>
+    <img src="~/Content/img/foto0.jpg" height="600p" weidth="600p" class="animated fadeInLeft col-md-4">
+</section>
+<div class="col-md-2">
+</div>
+<section>
+    <div class="col-md-12 letragrande animated zoomInDown retraso">
+        <h2 class="text-azulito subtitulo animated zoomInDown retraso">CONFIGURACION E INSTALACION DEL FIRMWARE</h2>
+        <p>Los pasos para la realización de esta práctica son los siguientes:</p>
+        <p>Se realizó la instalación de un programa llamado Tftpd64, este programa permite que sea posible el cambio de Firmware por alguno que nosotros quisiéramos escoger, cabe resaltar que el Firmware que se quiera descargar debe ser de la misma referencia del dispositivo que se está manipulando.</p>
+    </div>
+    <div class="col-md-3">
+    </div>
+    <br>
+    <br>
+    <img src="~/Content/img/foto1.png" height="539p" weidth="960p" class="animated fadeInLeft col-md-6">
+    <br>
+    <br>
+</section>
+<br>
+<br>
+<section>
+    <div class="col-md-12 letragrande">
+        <p class="text-justificado animated zoomInDown retraso">
+            Para realizar la descarga del Firmware hemos querido hacerlo mediante la página de código abierto llamada OpenWrt, para la posterior descarga del firmware que hemos querido instalar.
+        </p>
+    </div>
+    <div class="col-md-3">
+    </div>
+    <br>
+    <br>
+    <img src="~/Content/img/foto2.png" height="539p" weidth="960p" class="animated fadeInLeft col-md-6">
+</section>
+<br>
+<br>
+<section>
+    <div class="col-md-12 letragrande">
+        <p class="text-justificado animated zoomInDown retraso">
+            Seguido a ello, es necesario abrir el programa ya descargado, es decir, Tftpd64 para realizar la instalación del Firmware del dispositivo, es necesario aclarar que para realizar este proceso es indispensable tener el cable de LAN conectado a un computador y a su vez el cable de PoE al adaptador, este adaptador va conectado a una toma de corriente, es también de vital importancia tener en cuenta que el cable de PoE puede ser cualquier tipo de cable de red, además de ello después de instalar el Firmware es necesario reiniciar el dispositivo, antes de iniciar con la instalación del Firmware es primordial que se sepa que va en cada recuadro de la ventana de nuestro programa sea satisfactoria, en la barra que tiene por nombre <b>“Server Interface”</b> se coloca la dirección IP del equipo, en la barra que tiene por nombre <b>“Host”</b> se pone la dirección IP del Router que es por defecto 192.168.1.20, al terminado esto se selecciona el botón <b>“Put”</b>, luego a esto empieza a cargar la barra de estado, al final de esto la barra de carga que aparece en la ventana muestra un mensaje que dice <b>“4865 blocks transferred in 14 seconds 0 block retransmittedMDS”</b> este aviso nos muestra que el nuevo firmware ha sido instalado de forma exitosa,
+        </p>
+    </div>
+    <div class="col-md-3">
+    </div>
+    <br>
+    <br>
+    <img src="~/Content/img/foto3.png" height="539p" weidth="960p" class="animated fadeInLeft col-md-6">
+</section>
+<section>
+    <div class="col-md-12 letragrande">
+        <p class="text-justificado animated zoomInDown retraso">
+            Seguido a esto es necesario ir a la parte de configuración del Router, en nuestro caso se ingresa a la dirección por defecto de OpenWrt que esta se le da al finalizar la instalación del Firmware, en esta página se puede realizar la configuración del Router, para entrar a esta página es necesaria una cuenta que por defecto es <b>“Root”</b> y una contraseña, y en el cual su campo se deja vacío, esta herramienta que utilizaremos para la configuración del Router se llama LuCI.
+        </p>
+    </div>
+    <div class="col-md-3">
+    </div>
+    <br>
+    <br>
+    <img src="~/Content/img/foto4.png" height="539p" weidth="960p" class="animated fadeInLeft col-md-6">
+</section>
+<section>
+    <div class="col-md-12 letragrande">
+        <p class="text-justificado animated zoomInDown retraso">
+            Una vez adentro, nos encontramos con la pantalla de configuración, en ella encontramos el modo de la red local, en este caso seleccionaremos la que dice <b>“Provide (Access Point)”</b> se puede cambiar el nombre del SSID y ahí se puede digitar el nombre de su preferencia, en nuestra practica usamos el nombre de <b>“Alomia”</b> y finalmente la encriptación, es decir, si se quiere que nuestra red tenga una contraseña, como queramos que sea una red abierta seleccionamos <b>“No Encryptation”</b> finalmente guardamos cambios y cerramos sesión.
+        </p>
+    </div>
+    <div class="col-md-3">
+    </div>
+    <br>
+    <br>
+    <img src="~/Content/img/foto5.png" height="539p" weidth="960p" class="animated fadeInLeft col-md-6">
+</section>
+<section>
+    <div class="col-md-12 letragrande">
+        <h2 class="text-azulito subtitulo animated zoomInDown retraso">RESULTADO:</h2>
+        <p class="text-justificado animated zoomInDown retraso">Pudimos apreciar que la itinerancia de la red era correcta debido a que a medida que se alejaba de un Router e iba hacia el celular se desconectaba y volvía a conectarse, la distancia entre los Router era aproximadamente de 50 metros en línea recta lo que permitía poder hacer uso de la itinerancia.</p>
+    </div>
+    <img src="~/Content/img/foto6.jpg" height="960p" weidth="540p" class="animated fadeInLeft col-md-4">
+    <img src="~/Content/img/foto7.jpg" height="960p" weidth="540p" class="animated fadeInLeft col-md-4">
+    <img src="~/Content/img/foto8.jpg" height="960p" weidth="540p" class="animated fadeInLeft col-md-4 text-centrado">
+    <br>
+    <br>
+    <br>
+</section>
+<br>
+<br>
+<br>
+<section>
+    <div class="col-md-12 letragrande">
+        <h2 class="text-azulito subtitulo animated zoomInDown retraso">RESULTADO AL CAMINAR:</h2>
+    </div>
+    <img src="~/Content/img/foto9.png" height="960p" weidth="540p" class="animated fadeInLeft col-md-3">
+    <img src="~/Content/img/foto11.png" height="960p" weidth="540p" class="animated fadeInLeft col-md-3">
+    <img src="~/Content/img/foto10.png" height="960p" weidth="540p" class="animated fadeInLeft col-md-3">
+    <img src="~/Content/img/foto12.png" height="960p" weidth="540p" class="animated fadeInLeft col-md-3">
+    <br>
+    <br>
+    <br>
+</section>
+

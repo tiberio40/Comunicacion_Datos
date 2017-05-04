@@ -1,0 +1,110 @@
+		body { 
+			font-family: 'Raleway', sans-serif; /*fuente que se usa en la pagina web*/
+		}
+		.titulo{ /*propiedades del titulo*/
+			font-size: 50px;
+			margin-top: 1;
+			font-family: 'Raleway', sans-serif;
+			font-weight: bolder;
+		}
+		.encabezado-principal { /*crea la barra superior*/
+			padding-left:10px; 
+			padding-right:5px; 
+			padding-bottom:15px; 
+			padding-top:15px;
+			font-family: 'Raleway', sans-serif;
+		}
+		.text-centrado{ /*cambia la orientacion del texto*/
+			text-align:center;
+			font-family: 'Raleway', sans-serif;
+		}
+		.text-justificado{  /*cambia la orientacion del texto*/
+			text-align:justify;
+			font-family: 'Raleway', sans-serif;
+		}
+		.text-azulito{  /*cambia el color del texto*/
+			color:#247A9F;
+			font-family: 'Raleway', sans-serif;
+			font-weight: bolder;
+		}
+		.degradadobarra{ /*los encuentra en colorzilla.com*/
+        	background: rgb(30,87,153); /* Old browsers */
+            background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 44%, rgba(32,124,202,1) 65%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 44%,rgba(32,124,202,1) 65%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 44%,rgba(32,124,202,1) 65%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */	
+		}
+		.degradadofondo { /*los encuentra en colorzilla.com*/
+		    background: rgb(255,255,255); /* Old browsers */
+		    background: -webkit-linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(229,229,229,1) 100%);
+		    background: -o-linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(229,229,229,1) 100%);
+		    background: linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(229,229,229,1) 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+		}
+		.margenes{ /*quitar margenes*/
+			margin-left: 0px;
+			margin-right: 0px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+		.retraso{
+			-webkit-animation-delay: 0.5s;
+			-moz-animation-delay: 0.5s;
+			animation-delay: 0.5s; 
+		}
+		.retraso2{
+			-webkit-animation-delay: 1s;
+			-moz-animation-delay: 1s;
+			animation-delay: 1s; 
+		}	
+		.retraso3{
+			-webkit-animation-delay: 1.5s;
+			-moz-animation-delay: 1.5s;
+			animation-delay: 1.5s; 
+		}	
+		.retraso4{
+			-webkit-animation-delay: 2s;
+			-moz-animation-delay: 2s;
+			animation-delay: 2s; 
+		}	
+		.retraso5{
+			-webkit-animation-delay: 2.5s;
+			-moz-animation-delay: 2.5s;
+			animation-delay: 2.5s; 
+		}	
+		.subtitulo{ /*propiedades del subtitulo*/
+			font-size: 30px;
+			margin-top: 1;
+			font-family: 'Raleway', sans-serif;
+		}
+		.imagencircular {
+    		height: 200px; /* cambia estos dos valores para definir el tamaño de tu círculo */
+    		width: 200px;
+    		background-repeat: no-repeat; /* los siguientes valores son independientes del tamaño del círculo */
+    		background-position: 50%;
+    		border-radius: 50%;
+    		background-size: 100% auto;
+		}
+		.text-azulitogrande{  /*cambia el color del texto*/
+			color:#247A9F;
+			font-family: 'Raleway', sans-serif;
+			font-weight: bolder;
+			font-size: 20px;
+		}
+		.letragrande{
+			color:#000000;
+			font-family: 'Raleway', sans-serif;
+			font-size: 18px;
+		}
+		.barrainferior{
+			background: #258dc8;
+		    background: -webkit-linear-gradient(left, #258dc8 42%, #258dc8 60%);
+		    background: -o-linear-gradient(left, #258dc8 42%, #258dc8 60%);
+		    background: linear-gradient(to right, #258dc8 42%, #258dc8 60%);
+		    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#258dc8',GradientType=1 ); 
+		}
+		.letramasgrande{
+			color:#FFFFFF;
+			font-family: 'Raleway', sans-serif;
+			font-size: 20px;
+		}
